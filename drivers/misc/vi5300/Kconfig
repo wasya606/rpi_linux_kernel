@@ -1,0 +1,9 @@
+
+config VI5300
+	tristate "VI5300 I2C DEVICE"
+	depends on I2C && SYSFS
+	help
+	  This driver provides support for VI5300 - direct Time-of-Flight (dToF) sensor 
+	  module within a single modular package which integrates a single photon
+	  avalanche diode (SPAD) sensor and a VCSEL emitter.
+
