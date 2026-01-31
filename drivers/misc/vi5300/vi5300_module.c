@@ -11,6 +11,8 @@
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
  *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *  GNU General Public License for more details.
+ *  Originally developed for Linux 4.x by vendor.
+ *  Ported to Raspberry Pi kernel 6.15.0 by Vasyl Dykyj.
  */
 
 #include <linux/uaccess.h>
@@ -1321,5 +1323,6 @@ module_init(vi5300_init);
 module_exit(vi5300_exit);
 
 MODULE_AUTHOR("William.li<william.li@vidar.ai>");
+MODULE_AUTHOR("Vasyl Dykyj");
 MODULE_DESCRIPTION("VI5300 FlightSense TOF  sensor Driver");
 MODULE_LICENSE("GPL");

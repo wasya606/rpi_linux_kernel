@@ -11,7 +11,10 @@
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
  *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *  GNU General Public License for more details.
+ *  Originally developed for Linux 4.x by vendor.
+ *  Ported to Raspberry Pi kernel 6.15.0 by Vasyl Dykyj.
  */
+ 
 #ifndef VI5300_DEF_H
 #define VI5300_DEF_H
 
